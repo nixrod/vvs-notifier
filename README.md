@@ -1,6 +1,4 @@
-#VVS Notifier
-
-*Note that this project is a work in progress, the documentation will be enhanced as the project grows*
+# VVS Notifier
 
 This project runs on a raspberry pi.
 It connects to the vvs twitter and checks for current service outages.
@@ -10,7 +8,7 @@ The script is triggered through a motion sensor.
 
 run background script with `sudo /etc/init.d/vvs_notifier.sh start | stop | status`
 
-##Python Script Installation
+## Python Script Installation
 Add a config.ini file to the root of the project with the following twitter info: (configure your app at https://apps.twitter.com/)
 ```
 [twitter]
@@ -19,7 +17,7 @@ ConsumerSecret = <your_consumer_secret>
 AccessTokenKey = <your_access_token_key>
 AccessTokenConfig = <your_access_token_config>
 ```
-##Used GPIO Pins (mode=GPIO.BOARD)
+## Used GPIO Pins (mode=GPIO.BOARD)
 
 PIR:
 
