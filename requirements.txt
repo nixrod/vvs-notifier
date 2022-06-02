@@ -3,7 +3,7 @@ RPi.GPIO==0.6.3
 chardet==2.3.0
 colorama==0.3.2
 future==0.16.0
-html5lib==0.999
+html5lib==0.99999999
 oauthlib==2.0.1
 python-twitter==3.2.1
 requests==2.4.3
